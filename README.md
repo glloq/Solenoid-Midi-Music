@@ -7,5 +7,8 @@ La partie puissance sera controlé avec des mofset, des ULN2803, ULN2804 etc ...
 
 Afin de reduire la chaleur generé par les solenoides actif, nous utiliserons un decoupage PWM de l'alimentation generale pour reduire de 20/30% la tension des solenoides lorsqu'ils sont maintenu activé.
 
-## Code 
-Il suffit d'adapter le fichier settings pour votre cas d'utilisation 
+## applications
+il y a 2 version du code :
+  - Activation => active le solenoide avec un message noteOn, desactive avec un message noteOff
+  - impulsion/percussion => active le solenoide pendant un court instant a la reception d'un message noteOn
+
