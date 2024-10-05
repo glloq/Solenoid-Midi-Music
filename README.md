@@ -20,7 +20,7 @@ il y a 3 versions du code :
 Ce code utilise des mcp23017 pour activer des solenoide pendant un certain temps afin de jouer des sur un systeme de percussions (xylophone, glockenspiel, marimba, cloches, etc ...) 
 la partie puissance devra idelaement passer par ULN2803 pour limiter le nombre de composants, si vous utilisez des mofset=> pensez à utiliser une diode de roue libre !  
 Voici un exemple de controle de 32 solenoides en utilisant des ULN2803 :  
-<img src="https://github.com/glloq/Solenoid-Midi-Music/blob/main/img/SchemaElec.png" alt="pluck" width=100% height=100%/>  
+<img src="https://github.com/glloq/Solenoid-Midi-Music/blob/main/img/SchemaPercussions.png" alt="pluck" width=100% height=100%/>  
 
 voici les parametres a adapter a l'utilisation dans settings :
 - le numero midi de la premiere note (MIDI_FIRST_NOTE)
